@@ -56,7 +56,7 @@ class GameScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(15),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.purple.withValues(alpha:0.3),
+                      color: Colors.purple.withValues(alpha: 0.3),
                       blurRadius: 10,
                       offset: const Offset(0, 5),
                     ),
@@ -90,7 +90,7 @@ class GameScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(15),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withValues(alpha:0.2),
+                      color: Colors.grey.withValues(alpha: 0.2),
                       blurRadius: 10,
                       offset: const Offset(0, 5),
                     ),
@@ -132,7 +132,7 @@ class GameScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(15),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withValues(alpha:0.2),
+                      color: Colors.grey.withValues(alpha: 0.2),
                       blurRadius: 10,
                       offset: const Offset(0, 5),
                     ),
@@ -192,7 +192,7 @@ class GameScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(15),
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.grey.withValues(alpha:0.2),
+                      color: Colors.grey.withValues(alpha: 0.2),
                       blurRadius: 10,
                       offset: const Offset(0, 5),
                     ),
@@ -220,10 +220,10 @@ class GameScreen extends StatelessWidget {
                             vertical: 8,
                           ),
                           decoration: BoxDecoration(
-                            color: Colors.purple.withValues(alpha:0.1),
+                            color: Colors.purple.withValues(alpha: 0.1),
                             borderRadius: BorderRadius.circular(20),
                             border: Border.all(
-                              color: Colors.purple.withValues(alpha:0.3),
+                              color: Colors.purple.withValues(alpha: 0.3),
                             ),
                           ),
                           child: Text(
@@ -253,7 +253,7 @@ class GameScreen extends StatelessWidget {
                           borderRadius: BorderRadius.circular(15),
                           boxShadow: [
                             BoxShadow(
-                              color: Colors.grey.withValues(alpha:0.2),
+                              color: Colors.grey.withValues(alpha: 0.2),
                               blurRadius: 10,
                               offset: const Offset(0, 5),
                             ),
@@ -280,8 +280,8 @@ class GameScreen extends StatelessWidget {
                                   padding: const EdgeInsets.all(15),
                                   decoration: BoxDecoration(
                                     color: isCorrect
-                                        ? Colors.green.withValues(alpha:0.1)
-                                        : Colors.red.withValues(alpha:0.1),
+                                        ? Colors.green.withValues(alpha: 0.1)
+                                        : Colors.red.withValues(alpha: 0.1),
                                     borderRadius: BorderRadius.circular(10),
                                     border: Border.all(
                                       color:
