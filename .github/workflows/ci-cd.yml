@@ -70,7 +70,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: coverage-report
-          path: build/coverage/
+          path: build/reports/
 
       # Create build summary
       - name: Create build summary
